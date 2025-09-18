@@ -1,0 +1,97 @@
+*
+{
+    margin: auto;
+    align-items: center;
+    margin-top: 5%;
+}
+.borderdesign
+{
+    height: 230px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:darkgray;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    border: solid 10px black;
+    border-style: ridge;
+}
+.displaydesign input
+{
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+}
+.displaydesign span
+{
+    padding-left: 15px;
+}
+.displaydesign 
+{
+    border: 5px solid gray;
+    border-style:groove;
+    margin: 5px;
+}
+.buttons
+{
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    padding-right: 25px;
+    padding-left: 25px;    
+}
+.plus
+{
+    border: 2px solid black;
+    border-style: groove;
+}
+.sub
+{
+    border: 2px solid black;
+    border-style: groove;
+}
+.mul
+{
+    border: 2px solid black;
+    border-style: groove;
+}
+.div
+{
+    border: 2px solid black;
+    border-style: groove;
+}
+.squ
+{
+    border: 2px solid black;
+    border-style: groove;
+}
+.cub
+{
+    border: 2px solid black;
+    border-style: groove;
+}
+.plus:hover
+{
+    background-color:aqua ;
+}
+.sub:hover
+{
+    background-color:aqua ;
+}
+.mul:hover
+{
+    background-color:aqua ;
+}
+.div:hover
+{
+    background-color:aqua ;
+}
+.squ:hover
+{
+    background-color:aqua ;
+}
+.cub:hover
+{
+    background-color:aqua ;
+}
